@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_4_Directory</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="current\" />
+    <None Remove="current\test_1\" />
+    <None Remove="current\test_2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="current\" />
+    <Folder Include="current\test_1\" />
+    <Folder Include="current\test_2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="current\test_2\test_2-1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="current\test_1\test_1-1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="current\test_1\test_1-2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
