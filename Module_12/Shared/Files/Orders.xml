@@ -1,0 +1,15 @@
+﻿<Orders xmlns="http://schemas.orders.com" xmlns:ns1="http://schemas.prices.com">
+	<!--Collection of orders-->
+	<Order id="1">
+		<Item>Duff Beer</Item>
+		<CustomerName>Homer Simpson</CustomerName>
+		<Count>4</Count>
+		<ns1:TotalPrice discount="true">12.50</ns1:TotalPrice>
+	</Order>
+	<Order id="2">
+		<Item>Cherry Pie</Item>
+		<CustomerName>Marge Simpson</CustomerName>
+		<Count>1</Count>
+		<ns1:TotalPrice discount="false">5.15</ns1:TotalPrice>
+	</Order>
+</Orders>

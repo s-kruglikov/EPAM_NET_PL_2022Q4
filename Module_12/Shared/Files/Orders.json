@@ -1,0 +1,24 @@
+﻿{
+    "orders": [
+        {
+            "id": 1,
+            "item": "Duff Beer",
+            "customerName": "Homer Simpson",
+            "count": 4,
+            "price": {
+                "totalPrice": 12.50,
+                "discount": true
+            }
+        },
+        {
+            "id": 2,
+            "item": "Cherry Pie",
+            "customerName": "Marge Simpson",
+            "count": 1,
+            "price": {
+                "totalPrice": 5.15,
+                "discount": false
+            }
+        }
+    ]
+}
